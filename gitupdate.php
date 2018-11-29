@@ -1,4 +1,4 @@
-<?php `git pull`;
-#  $output = `date`;
-	 echo "Application has been updated";
+<?php 
+  $output = shell_exec(`git pull`);
+	 echo "Application has been updated $output ";
 ?>
