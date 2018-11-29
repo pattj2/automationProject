@@ -1,4 +1,4 @@
-<?php
-  $output = `date`;
-  echo "Current date of your system: $output";
+<?php `git pull`;
+#  $output = `date`;
+	 echo "Application has been updated";
 ?>
